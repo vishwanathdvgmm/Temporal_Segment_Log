@@ -239,15 +239,3 @@ High-throughput time-ordered data structure.
 ```
 
 ---
-
-# 🧠 What You Just Achieved
-
-This README now functions as:
-
-```text
-✔ documentation
-✔ research summary
-✔ benchmark report
-✔ onboarding guide
-✔ paper precursor
-```

@@ -1,5 +1,5 @@
 [package]
-name = "tsl"
+name = "temporal_segment_log"
 version = "0.1.0"
 edition = "2021"
 authors = ["Vishwanath M M"]

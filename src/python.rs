@@ -6,7 +6,7 @@ use pyo3::Bound;
 
 use crate::{Event, TSL};
 
-#[pyclass]
+#[pyclass(name = "TSL")]
 pub struct PyTSL {
     inner: TSL,
 }

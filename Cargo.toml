@@ -24,3 +24,15 @@ python = ["pyo3"]
 version = "0.21"
 features = ["extension-module"]
 optional = true
+
+[[bench]]
+name = "ingest"
+harness = false
+
+[[bench]]
+name = "query"
+harness = false
+
+[[bench]]
+name = "mixed"
+harness = false

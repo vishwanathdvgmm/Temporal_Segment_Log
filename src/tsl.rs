@@ -64,6 +64,14 @@ impl TSL {
             }
         }
 
+        let active = self.segments[self.active_segment].lock();
+
+        for e in &active.events {
+            if e.timestamp >= start && e.timestamp <= end {
+                result.push(e.clone());
+            }
+        }
+
         result
     }
 

@@ -1,6 +1,19 @@
+# Rust
+/target/
+Cargo.lock
+
+# Python
 .venv/
-.env
-docs/OVERVIEW.md
-docs/FEATURES.md
-target/
-*.lock
+__pycache__/
+*.pyc
+
+# maturin / build
+target/wheels/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

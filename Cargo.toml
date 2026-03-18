@@ -1,0 +1,26 @@
+[package]
+name = "tsl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vishwanath M M"]
+description = "Temporal Segment Log (TSL): High-throughput time-ordered data structure"
+
+[dependencies]
+parking_lot = "0.12"
+crossbeam = "0.8"
+
+[dev-dependencies]
+criterion = "0.5"
+rand = "0.8"
+
+[lib]
+name = "tsl"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+python = ["pyo3"]
+
+[dependencies.pyo3]
+version = "0.21"
+features = ["extension-module"]
+optional = true

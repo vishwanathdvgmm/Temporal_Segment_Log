@@ -1,0 +1,6 @@
+.venv/
+.env
+docs/OVERVIEW.md
+docs/FEATURES.md
+target/
+*.lock

@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "tsl"
-version = "0.1.0"
+version = "0.1.1"
 description = "Temporal Segment Log (TSL)"
 authors = [{ name = "Vishwanath M M" }]
 readme = "README.md"

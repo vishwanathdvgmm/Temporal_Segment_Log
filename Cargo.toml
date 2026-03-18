@@ -1,6 +1,6 @@
 [package]
 name = "temporal_segment_log"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Vishwanath M M"]
 description = "Temporal Segment Log (TSL): High-throughput time-ordered data structure"

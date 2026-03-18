@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Vishwanath M M"]
 description = "Temporal Segment Log (TSL): High-throughput time-ordered data structure"
+license = "MIT"
+repository = "https://github.com/vishwanathdvgmm/Temporal_Segment_Log"
+readme = "README.md"
+keywords = ["temporal", "log", "data-structure", "stream", "analytics", "index"]
+categories = ["data-structures"]
 
 [dependencies]
 parking_lot = "0.12"

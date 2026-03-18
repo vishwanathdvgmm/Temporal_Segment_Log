@@ -7,7 +7,7 @@ description = "Temporal Segment Log (TSL): High-throughput time-ordered data str
 license = "MIT"
 repository = "https://github.com/vishwanathdvgmm/Temporal_Segment_Log"
 readme = "README.md"
-keywords = ["temporal", "log", "data-structure", "stream", "analytics", "index"]
+keywords = ["temporal", "log", "data-structure", "stream", "index"]
 categories = ["data-structures"]
 
 [dependencies]
